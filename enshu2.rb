@@ -11,9 +11,10 @@ def clever_print(*params)
   puts converted_params.join(' ')
 end
 
-
+# 入力
 clever_print(["Ruby"], "the", ["Programming", "Language"])
 #=> Ruby the Programming Language
 
+#　出力
 clever_print(["Agile", "Web", "Development"], "with", { :Rails => 3.0 })
 #=> Agile Web Development with Rails 3.0
