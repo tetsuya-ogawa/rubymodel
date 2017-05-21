@@ -9,11 +9,11 @@ module Mail
 
   def send
     @send_time = DateTime.now
-    puts create_sended_time_info + 'Sending a Postcard to ' + @recipient + '.'
+    puts create_sended_time_info + "Sending a #{self.class} to " + @recipient + '.'
   end
 
   def to_s
-    ["#{create_sended_time_info}\n", "Dear #{@recipient},\n", "#{@body}\n", "Sincerely \n#{@sender}"].join("\n")
+    ["#{self.class} of #{create_sended_time_info}\n", "Dear #{@recipient},\n", "#{@body}\n", "Sincerely \n#{@sender}"].join("\n")
   end
 
   private
