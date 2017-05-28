@@ -3,7 +3,6 @@ code = "puts 'test'"
 eval(code)
 puts '------------------------------------'
 
-
 class Android
   def initialize(name)
     @name = name
