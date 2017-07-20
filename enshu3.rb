@@ -31,7 +31,7 @@ class Postcard
   end
 end
 
-card = Postcard.new("Me", "Friend")
+card = Postcard.new('Me', 'Friend')
 card.write("Did you forget my birthsday?")
 card.send
 puts "-" * 60
