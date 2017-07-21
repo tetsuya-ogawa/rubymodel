@@ -1,6 +1,6 @@
 Myclass = Class.new(Arrayl) do
   def my_method
-    'Hello'
+    'Hello World'
   end
 end
 
