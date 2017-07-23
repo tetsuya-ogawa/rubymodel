@@ -10,7 +10,7 @@ class Foo
  end
 end
 
-Foo.new.bar(Foo.new)
+Foo.new.bar()
 
 
 # 実行結果
