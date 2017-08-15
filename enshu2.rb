@@ -7,7 +7,6 @@ def clever_print(*params)
     end
     converted_params << param
   end
-
   puts converted_params.join(' ')
 end
 

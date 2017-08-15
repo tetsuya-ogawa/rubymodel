@@ -16,7 +16,3 @@ class Hammer < Tool
 end
 
 Hammer.new("red").use
-
-# 出力
-# Picks up red Hammer
-# Bam bam bam

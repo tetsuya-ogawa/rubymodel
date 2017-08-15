@@ -48,20 +48,3 @@ puts card
 #
 # Sincerely,
 # Me
-
-# 模範解答 PostCardがクラスじゃなくて文字列だと思っていた(笑)
-# module Mail
-#   attr_reader :sender, :recipient, :text, :date
-#
-#   def send
-#     puts "#{@date = Time.now}: Sending a #{self.class} to #{self.recipient}."
-#   end
-#
-#   def write(text)
-#     @text = text
-#   end
-#
-#   def to_s
-#     "#{self.class} of #{@date}:\n\nDear #{@recipient},\n\n#{@text}\n\nSincerely,\n#{@sender}"
-#   end
-# end

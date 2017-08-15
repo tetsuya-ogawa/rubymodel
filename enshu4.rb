@@ -18,4 +18,4 @@ end
 
 pluto.life?()  #=> Probably not.
 earth.life?()  #=> Positively!
-mars.life?()   #=> Who knows?
+mars.life?
