@@ -11,7 +11,6 @@ end
 buy_tickets("Sam", "Dave", "David")
 buy_tickets("John", "Paul", "Ringo", "George")
 
-
 # 出力
 # Buying a ticket for Sam.
 # Buying a ticket for Dave.
