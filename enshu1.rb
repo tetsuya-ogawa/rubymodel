@@ -11,6 +11,7 @@ class Library
   end
 
   private
+  
   def display_book_info
     @books.map do |book|
       "Title: #{book.title}, Author: #{book.author}"
